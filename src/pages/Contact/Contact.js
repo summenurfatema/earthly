@@ -40,18 +40,11 @@ const Contact = () => {
 <p className=" text-sm md:tracking-wide lg:text-2xl  lg:tracking-wide font-normal tracking-tight">Lucan, Co. Dublin, Ireland</p>
 </div>
 </div>
-{/* <div>
-  <p className=animate-waving-hand" alt='' />
-
-  </div> */}
+</div>
+</div>
 </div>
 
-
-
-
-        </div>
-      </div>
-      {/* Right */}
+      {/* Right side */}
      
       <div className="w-full md:w-2/3 lg:w-3/5 px-3 my-5">
       <div className="border rounded-full py-0 md:mx-0 lg:mx-20">
