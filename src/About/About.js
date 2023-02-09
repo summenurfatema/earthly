@@ -1,4 +1,5 @@
 import React from 'react';
+import BottomAbout from './BottomAbout';
 
 const About = () => {
     return (
@@ -35,7 +36,7 @@ const About = () => {
 
 {/* bottom */}
 
-
+<BottomAbout/>
         </div>
     );
 };
