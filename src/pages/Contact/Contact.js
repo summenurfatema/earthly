@@ -51,8 +51,8 @@ const Contact = () => {
         <form>
           <div className="flex flex-col items-center space-y-10 pb-14 pt-32 md:pt-24 md:pb-6 ">
             <input
-              name="email"
-              type="email"
+              name="name"
+              type="name"
               className=" text-xl border-b-2 py-3 text-black  w-4/5 focus-none focus:outline-none"
               placeholder="Full Name"
             />
