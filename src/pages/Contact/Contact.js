@@ -31,7 +31,7 @@ const Contact = () => {
             {/*3*/}
 
             <div className="flex items-center space-x-2">
-<div className="h-12 w-12 bg-yellow-300"></div>{/* https:/pik.com-icon-3d-rendering_207199-279.jpg?w=2000*/}
+<div className="h-12 w-12 bg-yellow-300"></div>{/* https:/pi2000*/}
 
 <div className="space-y-0">
 
