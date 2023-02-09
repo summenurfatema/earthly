@@ -14,6 +14,8 @@ const About = () => {
     <div className='bg-green-300 h-52 w-52 absolute left-16 -top-10'></div>
     <div className='bg-red-300 h-52 w-52'></div>
     </div>
+
+    {/* left side */}
     <p className='text-xl font-medium'>It’s high time for all of us to think about our 
     impression and capacity to lessen the waste and its impacts on the climate. This must 
     be finished by settling on a responsible choice of utilizing eco-friendly products.
