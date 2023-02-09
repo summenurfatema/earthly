@@ -1,14 +1,21 @@
 import React from 'react';
+import intro from '../../assets/intro.png'
 
 const Contact = () => {
     return (
+      <div>
+         <div className='flex -space-x-16 justify-center items-center '>
+                <img src={intro} className='h-32 w-32' alt=' '/>
+                <h1 className='text-4xl font-bold'>Contact With Us</h1>
+            </div>
+      
         <div className='bg-[#fff] flex items-center lg:justify-evenly flex-col md:flex-row lg:px-14'>
 
            {/* left */}
           <div className="w-full md:w-1/3 lg:w-2/5 relative">
      
           <div className="pl-7 md:pl-10 my-6">
-         <p className='font-semibold mb-3 uppercase md:font-bold md:text-xl lg:text-2xl lg:mb-7'>Contact with us</p>
+      
         <div className="space-y-2 md:space-y-5 lg:space-y-7">
             {/*1 */}
 
@@ -78,6 +85,7 @@ const Contact = () => {
         </form>
         </div>
       </div>
+    </div>
     </div>
       
     );

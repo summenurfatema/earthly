@@ -1,7 +1,7 @@
 import React from "react";
 // import Swiper core and required modules
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
-
+import intro from '../../assets/intro.png'
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -34,8 +34,12 @@ const Testimonial = () => {
     return (
     <div>
     <section className="my-8">
+    <div className='flex -space-x-20 justify-center items-center '>
+                <img src={intro} className='h-36 w-36' alt=' '/>
+                <h1 className='text-4xl font-bold tracking-wider'>Testimonial</h1>
+            </div>
         <div className="container flex flex-col items-center mx-auto mb-12 md:p-10 md:px-12">
-            <p className='text-2xl text-gray-800 tracking-wider'>OUR TESTIMONIAL</p>
+{/* <p className='text-2xl text-gray-800 '>OUR TESTIMONIAL</p> */}
             <h1 className="p-4 text-4xl font-semibold text-center">What our customers are saying about us</h1>
         </div>
         <div className="container flex flex-col items-center justify-center mx-auto lg:flex-row lg:flex-wrap lg:justify-evenly lg:px-10">

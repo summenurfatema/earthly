@@ -1,11 +1,15 @@
 import React from 'react';
 import BottomAbout from './BottomAbout';
 import LargeDevice from './LargeDevice';
+import intro from '../assets/intro.png'
 
 const About = () => {
     return (
         <div>
-            <h1 className='text-2xl text-center font-bold'>About us</h1>
+           <div className='flex -space-x-16 justify-center items-center '>
+                <img src={intro} className='h-32 w-32' alt=' '/>
+                <h1 className='text-4xl font-bold'>About Earthly</h1>
+            </div>
 
             {/* for large device */}
 <LargeDevice/>
