@@ -4,11 +4,10 @@ const About = () => {
     return (
         <div>
             <h1 className='text-2xl text-center font-bold'>About us</h1>
-<div className='flex flex-col md:flex-row md:justify-around items-center my-10 '>
+           <div className='flex flex-col md:flex-row md:justify-around items-center my-10 '>
 
 {/* left side */}
 <div className='w-full md:w-1/2 px-7'>
-   
     <div className='relative md:hidden'>
     <div className='bg-green-300 h-52 w-52 absolute left-16 -top-10'></div>
     <div className='bg-red-300 h-52 w-52'></div>
