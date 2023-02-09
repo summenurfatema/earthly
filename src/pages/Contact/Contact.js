@@ -31,7 +31,7 @@ const Contact = () => {
             {/*3*/}
 
             <div className="flex items-center space-x-2">
-<div className="h-12 w-12 bg-yellow-300"></div>{/* https:/pi2000*/}
+<div className="h-12 w-12 bg-yellow-300"></div>
 
 <div className="space-y-0">
 
