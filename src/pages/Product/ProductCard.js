@@ -9,15 +9,15 @@ const ProductCard = ({ newProduct }) => {
     return (
         <div className="group cursor-pointer  rounded-md overflow-hidden border-2">
             <div>
-                <img className='w-full h-60' src={img} alt="" />
+                <img className='w-full h-80 md:h-96 lg:h-60' src={img} alt="" />
             </div>
             <div>
-                <small className='flex space-x-1 text-gray-500 px-2'><FaStar />
-                    <FaStar /><FaStar /><FaStar /><FaStar /></small>
+                <small className='flex space-x-1 text-yellow-500 px-2 py-2'><FaStar />
+                    <FaStar  /><FaStar /><FaStar /><FaStar /></small>
                 <small className='px-2'>{name}</small>
 
-                <p className=" text-brown text-base pt-5 font-bold px-2">৳{price}</p>
-                <button className="px-10 py-2 hover:bg-gray-500 hover:text-white bg-brown mx-auto w-full transition-all rounded-sm duration-300">
+                <p className=" text-brown text-base pt-1 font-bold px-2">৳{price}</p>
+                <button className="px-10 py-2 hover:bg-[#2866D7] hover:text-white bg-brown mx-auto w-full transition-all rounded-sm duration-300">
                     <GiShoppingCart className="inline mr-2"></GiShoppingCart>
                     Buy Now
                 </button>
