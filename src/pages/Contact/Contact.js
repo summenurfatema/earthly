@@ -42,8 +42,7 @@ const Contact = () => {
 </div>
 {/* <div>
   <p className="tet-4 items-center">
-
-  <img src='https://cdn3d.iconscout.com/3d/free/thumb/github-5622954-4684832.png' className="h-36 w-36" alt='' />
+om/3d/free/thumb/github-5622954-4684832.png' className="h-36 w-36" alt='' />
   <img src='https://cdn3d.iconscoree/thumb/linkedin-logo-5476201-4602452.png' className="h-36 w-36 animate-waving-hand" alt='' />
 
   </div> */}
