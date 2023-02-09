@@ -23,7 +23,7 @@ const About = () => {
     coffee cups, and many sustainable products are items that are not unsafe to the climate.
       the market. The other alternatives are expensive and lack quality.</p>
 </div>
-{/* right */}
+{/* right side */}
 <div  className='w-full md:w-2/3 relative'>
     <div className='bg-green-300 h-80 w-72 absolute md:-top-24 md:left-2'></div>
     <div className='bg-red-300 h-72 w-72 absolute -top-52 right-7'></div>
