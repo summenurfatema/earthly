@@ -41,7 +41,7 @@ const Contact = () => {
 </div>
 </div>
 {/* <div>
-  <p className="tet-4 items-cent-5476201-4602452.png' className="h-36 w-36 animate-waving-hand" alt='' />
+  <p className=animate-waving-hand" alt='' />
 
   </div> */}
 </div>
