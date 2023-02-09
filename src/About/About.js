@@ -8,6 +8,8 @@ const About = () => {
 
 {/* left side */}
 <div className='w-full md:w-1/2 px-7'>
+
+    {/* for small device */}
     <div className='relative md:hidden'>
     <div className='bg-green-300 h-52 w-52 absolute left-16 -top-10'></div>
     <div className='bg-red-300 h-52 w-52'></div>
