@@ -4,12 +4,13 @@ const Banner = () => {
     return (
         <div>
 <section class="text-gray-900 bg-white">
+  <div className='h-28 mb-4 bg-red-300'></div>
   <div
-    class="mx-auto max-w-screen-xl px-4 pt-12 pb-32 lg:flex h-[80vh] lg:items-center"
+    class="mx-auto max-w-screen-xl px-4 pt-12 pb-32 lg:flex h-[90vh] lg:items-center"
   >
     <div class="mx-auto max-w-3xl text-center">
       <h1
-        class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-xl font-extrabold text-transparent  sm:text-5xl"
+        class="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-xl  font-extrabold text-transparent  sm:text-5xl"
       >
         EARTHLY !!! 
 

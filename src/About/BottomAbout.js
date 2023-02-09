@@ -1,4 +1,6 @@
 import React from 'react';
+import loffa from '../assets/loffa.PNG'
+import kited from '../assets/kited.PNG'
 
 const BottomAbout = () => {
     return (
@@ -21,8 +23,9 @@ const BottomAbout = () => {
 
 {/* right side */}
 <div  className='w-full md:w-2/3 relative'>
-    <div className='bg-green-300 h-80 w-72 absolute md:-top-24 md:left-6'></div>
-    <div className='bg-red-300 h-72 w-72 absolute -top-52 right-7 lg:-top-48 '></div>
+     <img src={kited} className='h-80 w-72 absolute md:-top-24 md:left-6' alt='kited'/>
+     <img src={loffa} className='h-72 w-72 absolute -top-52 right-7 lg:-top-48' alt='loffa'/>
+
 </div>
 </div>
         </div>

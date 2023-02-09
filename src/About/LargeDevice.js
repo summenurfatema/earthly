@@ -1,5 +1,7 @@
 import React from 'react';
-
+import kited from '../assets/kited.PNG'
+import cuped from '../assets/cuped.PNG'
+import loffa from '../assets/loffa.PNG'
 const LargeDevice = () => {
     return (
         <div className='hidden xl:block'>
@@ -20,9 +22,10 @@ const LargeDevice = () => {
 </div>
 {/* pic */}
 <div className='w-3/5 h-96 relative'>
-<div className='bg-green-300 h-80 w-80 absolute top-32'></div>
-    <div className='bg-red-300 h-80 w-96 absolute top-16 left-60'></div>
-    <div className='bg-blue-300 h-80 w-80 absolute top-0 right-12'></div>
+
+     <img src={kited} className='h-80 w-80 absolute top-32' alt='brush'/>
+     <img src={cuped} className='h-80 w-96 absolute top-16 left-60' alt='brush'/>
+     <img src={loffa} className='h-80 w-80 absolute top-0 right-12' alt='brush'/>
 </div>
                 
             </div>

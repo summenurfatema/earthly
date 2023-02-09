@@ -3,10 +3,10 @@ import intro from '../../assets/intro.png'
 
 const News = () => {
     return (
-        <div>
+        <div className=''>
             <div className='flex -space-x-16 justify-center items-center '>
                 <img src={intro} className='h-32 w-32' alt=' '/>
-                <h1 className='text-4xl font-bold'>News</h1>
+                <h1 className='text-xl md:text-4xl font-bold'>News About Earthly</h1>
             </div>
             <section className="px-5 py-10 dark:bg-gray-800 dark:text-gray-100">
 	<div className="container grid grid-cols-12 mx-auto gap-y-6 md:gap-10">
@@ -17,7 +17,7 @@ const News = () => {
 						<span className="flex-shrink-0 w-2 h-2 uppercase rounded-full dark:bg-violet-400"></span>
 						<span className="text-xs font-bold tracking-wider uppercase">Exclusive</span>
 					</h3>
-					<a rel="noopener noreferrer" href=" " className="font-serif hover:underline">Donec sed elit quis odio mollis dignissim eget et nulla.</a>
+					<a rel="noopener noreferrer" href=" " className="hover:underline">News about earthly</a>
 					<p className="text-xs dark:text-gray-400">47 minutes ago by
 						<a rel="noopener noreferrer" href=" " className="hover:underline dark:text-violet-400">Leroy Jenkins</a>
 					</p>
@@ -27,7 +27,7 @@ const News = () => {
 						<span className="flex-shrink-0 w-2 h-2 uppercase rounded-full dark:bg-violet-400"></span>
 						<span className="text-xs font-bold tracking-wider uppercase">Exclusive</span>
 					</h3>
-					<a rel="noopener noreferrer" href=" " className="font-serif hover:underline">Ut fermentum nunc quis ipsum laoreet condimentum.</a>
+					<a rel="noopener noreferrer" href=" " className="hover:underline">News about earthly</a>
 					<p className="text-xs dark:text-gray-400">2 hours ago by
 						<a rel="noopener noreferrer" href=" " className="hover:underline dark:text-violet-400">Leroy Jenkins</a>
 					</p>
@@ -37,7 +37,7 @@ const News = () => {
 						<span className="flex-shrink-0 w-2 h-2 uppercase rounded-full dark:bg-violet-400"></span>
 						<span className="text-xs font-bold tracking-wider uppercase">Exclusive</span>
 					</h3>
-					<a rel="noopener noreferrer" href=" " className="font-serif hover:underline">Nunc nec ipsum lobortis, pulvinar neque sed.</a>
+					<a rel="noopener noreferrer" href=" " className="hover:underline">News about earthly.</a>
 					<p className="text-xs dark:text-gray-400">4 hours ago by
 						<a rel="noopener noreferrer" href=" " className="hover:underline dark:text-violet-400">Leroy Jenkins</a>
 					</p>
@@ -56,8 +56,8 @@ const News = () => {
 				</a>
 			</div>
 		</div>
-		<div className="relative flex col-span-12 bg-center bg-no-repeat bg-cover dark:bg-gray-500 xl:col-span-6 lg:col-span-5 md:col-span-9 min-h-96" style={{backgroundImage: `url('https://source.unsplash.com/random/640x480')`, backgroundPosition: 'center center', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
-			<span className="absolute px-1 pb-2 text-xs font-bold uppercase border-b-2 left-6 top-6 dark:border-violet-400 dark:text-gray-100">paris, france</span>
+		<div className="relative flex col-span-12 bg-center bg-no-repeat bg-cover dark:bg-gray-500 xl:col-span-6 lg:col-span-5 md:col-span-9 min-h-96" style={{backgroundImage: `url('https://cdn.shopify.com/s/files/1/0439/8809/1048/files/Screen_20Shot_202020-10-30_20at_204.48_edited_300x300.png?v=1614319399')`, backgroundPosition: 'center center', backgroundBlendMode: 'multiply', backgroundSize: 'cover'}}>
+
 			<a className="flex flex-col items-center justify-end p-6 text-center sm:p-8 group dark:via-transparent flex-grow-1 bg-gradient-to-b dark:from-gray-900 dark:to-gray-900" href=" ">
 				<span className="flex items-center mb-4 space-x-2 dark:text-violet-400">
 					<span className="relative flex-shrink-0 w-2 h-2 rounded-full dark:bg-violet-400">
@@ -65,7 +65,7 @@ const News = () => {
 					</span>
 					<span className="text-sm font-bold">Live</span>
 				</span>
-				<h1 rel="noopener noreferrer" href=" " className="font-serif text-2xl font-semibold group-hover:underline dark:text-gray-100">Morbi mattis justo est, ac consectetur dui eleifend vitae. Donec venenatis?</h1>
+		<h1 rel="noopener noreferrer" href=" " className="font-serif text-2xl font-semibold group-hover:underline dark:text-gray-100">News about EARTHLY !!!</h1>
 			</a>
 		</div>
 		<div className="hidden py-2 xl:col-span-3 lg:col-span-4 md:hidden lg:block">
@@ -75,7 +75,7 @@ const News = () => {
 			</div>
 			<div className="flex flex-col divide-y divide-gray-700">
 				<div className="flex px-1 py-4">
-					<img alt="" className="flex-shrink-0 object-cover w-20 h-20 mr-4 dark:bg-gray-500" src="https://source.unsplash.com/random/244x324" />
+					<img alt="" className="flex-shrink-0 object-cover w-20 h-20 mr-4 dark:bg-gray-500" src="https://static.wixstatic.com/media/9c7be0_13e58110923a4244bd1250fafabc0615~mv2.png/v1/fill/w_2500,h_1559,al_c/9c7be0_13e58110923a4244bd1250fafabc0615~mv2.png" />
 					<div className="flex flex-col flex-grow">
 						<a rel="noopener noreferrer" href=" " className="font-serif hover:underline">Aenean ac tristique lorem, ut mollis dui.</a>
 						<p className="mt-auto text-xs dark:text-gray-400">5 minutes ago
@@ -84,7 +84,7 @@ const News = () => {
 					</div>
 				</div>
 				<div className="flex px-1 py-4">
-					<img alt="" className="flex-shrink-0 object-cover w-20 h-20 mr-4 dark:bg-gray-500" src="https://source.unsplash.com/random/245x325" />
+					<img alt="" className="flex-shrink-0 object-cover w-20 h-20 mr-4 dark:bg-gray-500" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7t7YW5y_7FiUbZUOc7jOwOgtwH9EuoTvwiw&usqp=CAU" />
 					<div className="flex flex-col flex-grow">
 						<a rel="noopener noreferrer" href=" " className="font-serif hover:underline">Nulla consectetur efficitur.</a>
 						<p className="mt-auto text-xs dark:text-gray-400">14 minutes ago
@@ -93,7 +93,7 @@ const News = () => {
 					</div>
 				</div>
 				<div className="flex px-1 py-4">
-					<img alt="" className="flex-shrink-0 object-cover w-20 h-20 mr-4 dark:bg-gray-500" src="https://source.unsplash.com/random/246x326" />
+					<img alt="" className="flex-shrink-0 object-cover w-20 h-20 mr-4 dark:bg-gray-500" src="https://static.wixstatic.com/media/9c7be0_13e58110923a4244bd1250fafabc0615~mv2.png/v1/fill/w_2500,h_1559,al_c/9c7be0_13e58110923a4244bd1250fafabc0615~mv2.png" />
 					<div className="flex flex-col flex-grow">
 						<a rel="noopener noreferrer" href=" " className="font-serif hover:underline">Vitae semper augue purus tincidunt libero.</a>
 						<p className="mt-auto text-xs dark:text-gray-400">22 minutes ago
@@ -102,7 +102,7 @@ const News = () => {
 					</div>
 				</div>
 				<div className="flex px-1 py-4">
-					<img alt="" className="flex-shrink-0 object-cover w-20 h-20 mr-4 dark:bg-gray-500" src="https://source.unsplash.com/random/247x327" />
+					<img alt="" className="flex-shrink-0 object-cover w-20 h-20 mr-4 dark:bg-gray-500" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7t7YW5y_7FiUbZUOc7jOwOgtwH9EuoTvwiw&usqp=CAU" />
 					<div className="flex flex-col flex-grow">
 						<a rel="noopener noreferrer" href=" " className="font-serif hover:underline">Suspendisse potenti.</a>
 						<p className="mt-auto text-xs dark:text-gray-400">37 minutes ago

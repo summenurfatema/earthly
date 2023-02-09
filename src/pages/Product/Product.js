@@ -11,6 +11,9 @@ import loofah2 from '../../assets/loofah2.PNG'
 import straw1 from '../../assets/straw1.PNG'
 import straw2 from '../../assets/straw2.PNG'
 import straw3 from '../../assets/straw3.PNG'
+
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 // import Swiper and modules styles
 
 import 'swiper/css';
@@ -25,6 +28,7 @@ import ProductCard from './ProductCard';
 
 
 const Product = () => {
+    AOS.init()
     const categories = [
         {
             'id': 1,
@@ -87,11 +91,11 @@ const Product = () => {
   
         
     return (
-        <div className='mb-10  md:mb-32 mt-16 md:mt-2 lg:mt-0'>
+        <div className='mb-10  md:mb-32 mt-4 md:mt-12 lg:-mt-12 lg:mb-5'>
 
-<div className='flex -space-x-16 justify-center items-center '>
+<div className='flex -space-x-16 justify-center items-center' data-aos="fade-down">
                 <img src={intro} className='h-32 w-32' alt=' '/>
-                <h1 className='text-2xl md:text-4xl font-bold'>Our Product</h1>
+                <h1 className='text-2xl md:text-4xl font-bold' >Our Product</h1>
             </div>
 {/* mobile */}
 <div className='lg:hidden px-5 md:px-10 md:h-[500px]'>
@@ -115,9 +119,9 @@ const Product = () => {
       </Swiper>
       </div>
             {/*  */}
-            <div className='lg:flex flex-row-reverse justify-evenly hidden'>
+            <div className='lg:flex lg:flex-row-reverse lg:justify-evenly hidden'>
 
-                <div className='w-[500px] mt-40'>
+                <div className='w-[420px] h-[200px] mt-40 pr-10'  data-aos="fade-left">
 
                     <Swiper
                         spaceBetween={3}
@@ -127,15 +131,16 @@ const Product = () => {
                         modules={[Pagination]}
                         className="mySwiper"
                     >
-                        <SwiperSlide><img className='h-[500px] ' src={straw2} alt='' /></SwiperSlide>
-                        <SwiperSlide><img className='h-[500px]' src={cup11} alt='' /></SwiperSlide>
+                        
+                        <SwiperSlide><img className='h-[410px] ' src={straw2} alt='' /></SwiperSlide>
+                        <SwiperSlide><img className='h-[410px]' src={cup11} alt='' /></SwiperSlide>
 
                     </Swiper>
                 </div>
 
 
                 {/* new Arrival */}
-                <div className='w-[800px] px-10'>
+                <div className='w-[800px] px-10'  data-aos="fade-right">
                     <Swiper
                         slidesPerView={3}
                         grid={{
