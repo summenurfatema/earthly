@@ -31,7 +31,7 @@ const Contact = () => {
             {/*3*/}
 
             <div className="flex items-center space-x-2">
-<div className="h-12 w-12 bg-yellow-300"></div>{/* https://img.freepik.com/premium-psd/blue-house-icon-3d-rendering_207199-279.jpg?w=2000*/}
+<div className="h-12 w-12 bg-yellow-300"></div>{/* https:/pik.com-icon-3d-rendering_207199-279.jpg?w=2000*/}
 
 <div className="space-y-0">
 
@@ -67,8 +67,8 @@ const Contact = () => {
             <textarea
               className=" text-xl border-b-2 py-3 text-black  w-4/5 focus-none focus:outline-none"
               name="messege"
-              placeholder="Your Messege"
-></textarea>
+              placeholder="Your Messege">
+            </textarea>
           </div> 
          <div className="h-24 w-24 border hover:pl-2  hover:pt-2 rounded-full">
          <div className="h-20 w-20 rounded-full hover:scale-110  bg-yellow-300 flex flex-col justify-center items-center">
