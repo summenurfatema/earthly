@@ -20,7 +20,7 @@ const Testimonial = () => {
         },
         {
             "id": 2,
-            "img": "https://source.unsplash.com/50x50/?portrait?2",
+            "img": "https://source.unsplash.com/50x50portrait/??2",
             "name": "Masud Rana",
             "review": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere."
         },
