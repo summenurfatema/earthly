@@ -1,14 +1,19 @@
 import React from 'react';
 import BottomAbout from './BottomAbout';
+import LargeDevice from './LargeDevice';
 
 const About = () => {
     return (
         <div>
             <h1 className='text-2xl text-center font-bold'>About us</h1>
-           <div className='flex flex-col md:flex-row md:justify-around items-center my-10 '>
+
+            {/* for large device */}
+<LargeDevice/>
+           <div className='flex flex-col md:flex-row md:justify-around items-center my-10 xl:hidden'>
 
 {/* left side */}
 <div className='w-full md:w-1/2 px-7'>
+    
 
     {/* for small device */}
     <div className='relative md:hidden'>
@@ -27,9 +32,9 @@ const About = () => {
 
 
 {/* right side */}
-<div  className='w-full md:w-2/3 relative'>
-    <div className='bg-green-300 h-80 w-72 absolute md:-top-24 md:left-2'></div>
-    <div className='bg-red-300 h-72 w-72 absolute -top-52 right-7'></div>
+<div  className='w-full md:w-2/3 relative hidden md:block'>
+    <div className='bg-green-300 h-80 w-72 absolute md:-top-24 md:left-2 lg:-top-32 '></div>
+    <div className='bg-red-300 h-72 w-72 absolute -top-52 right-7 lg:right-14 xl:-top-44'></div>
 </div>
 </div>
 
