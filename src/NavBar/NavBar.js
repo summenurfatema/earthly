@@ -28,7 +28,7 @@ const NavBar = () => {
                                 href="/"
                                 className="inline-flex items-center"
                             >
-                                <img src={logo} className='h-14 w-16 md:h-20 md:w-20 lg:w-36 lg:h-24 lg:-ml-32' alt='logo' />
+                                <img src={logo} className='h-14 w-16 md:h-20 md:w-20 lg:w-44 lg:h-24 lg:-ml-32' alt='logo' />
 
                                 <span class=" text-xl lg:text-2xl font-bold text-white -ml-4">
                                    Earthly
