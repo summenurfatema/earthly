@@ -11,7 +11,7 @@ const About = () => {
     AOS.init()
     return (
         <div>
-           <div className='flex -space-x-16 justify-center items-center mt-0 lg:mt-0 md:-mt-20'>
+           <div data-aos="fade-down" className='flex -space-x-16 justify-center items-center mt-0 lg:mt-0 md:-mt-20'>
                 <img src={intro} className='h-32 w-32' alt=' '/>
                 <h1 className='text-2xl md:text-4xl font-bold'>About Earthly</h1>
             </div>
@@ -26,8 +26,8 @@ const About = () => {
 
     {/* for small device */}
     <div className='relative md:hidden mb-3'>
-        <img src={cuped} className='h-52 w-60 absolute left-16 -top-10' alt='brush'/>
-        <img src={brushed} className='h-52 w-52' alt='brush'/>
+        <img data-aos="fade-left" src={cuped} className='h-52 w-60 absolute left-16 -top-10' alt='brush'/>
+        <img data-aos="fade-right" src={brushed} className='h-52 w-52' alt='brush'/>
     
     </div>
 
@@ -44,8 +44,8 @@ const About = () => {
 {/* right side */}
 <div  className='w-full md:w-2/3 relative hidden md:block'>
 
-    <img data-aos="fade-up-right" src={brushed} className='h-80 w-72 absolute md:-top-24 md:left-2 lg:-top-32' alt='brush'/>
-    <img data-aos="fade-up-right" src={cuped} className='h-72 w-72 absolute -top-52 right-7 lg:right-14 xl:-top-44' alt='brush'/>
+    <img  data-aos="fade-up" src={brushed} className='h-80 w-72 absolute md:-top-24 md:left-2 lg:-top-32' alt='brush'/>
+    <img  data-aos="fade-down" src={cuped} className='h-72 w-72 absolute -top-52 right-7 lg:right-14 xl:-top-44' alt='brush'/>
 
 </div>
 </div>

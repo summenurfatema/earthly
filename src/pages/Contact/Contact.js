@@ -2,19 +2,22 @@ import React from 'react';
 import intro from '../../assets/intro.png'
 import { FaPhone, FaEnvelopeOpen , FaLocationArrow} from 'react-icons/fa';
 //import {  IoLocation} from 'react-icons/io';
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+AOS.init()
     return (
       <div>
-         <div className='flex -space-x-16 justify-center items-center '>
+         <div data-aos="fade-down" className='flex -space-x-16 justify-center items-center '>
                 <img src={intro} className='h-32 w-32' alt=' '/>
                 <h1 className='text-2xl lg:text-4xl font-bold'>Contact With Us</h1>
             </div>
       
-        <div className='bg-[#fff] flex items-center lg:justify-evenly flex-col md:flex-row lg:px-14'>
+        <div  className='bg-[#fff] flex items-center lg:justify-evenly flex-col md:flex-row lg:px-14'>
 
            {/* left */}
-          <div className="w-full md:w-1/3 lg:w-2/5 relative">
+          <div data-aos="zoom-in-left" className="w-full md:w-1/3 lg:w-2/5 relative">
      
           <div className="pl-7 md:pl-10 my-6">
       
@@ -55,7 +58,7 @@ const Contact = () => {
 
       {/* Right side */}
      
-      <div className="w-full md:w-2/3 lg:w-3/5 px-3 my-5">
+      <div data-aos="zoom-in-right" className="w-full md:w-2/3 lg:w-3/5 px-3 my-5">
       <div className="border rounded-full py-0 md:mx-0 lg:mx-20">
         <form>
           <div className="flex flex-col items-center space-y-10 pb-14 pt-32 md:pt-28 md:pb-6 ">

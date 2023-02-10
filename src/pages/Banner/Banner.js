@@ -4,7 +4,7 @@ const Banner = () => {
     return (
         <div>
 <section class="text-gray-900 bg-white">
-  <div className='h-28 mb-4 bg-red-300'></div>
+
   <div
     class="mx-auto max-w-screen-xl px-4 pt-12 pb-32 lg:flex h-[90vh] lg:items-center"
   >
@@ -23,7 +23,7 @@ const Banner = () => {
 
       <div class="mt-8 flex flex-wrap justify-center gap-4">
         <a
-          class="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+          class="block w-full rounded border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-black focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
           href="/get-started"
         >
           Buy Now

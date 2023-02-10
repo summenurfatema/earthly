@@ -93,12 +93,12 @@ const Product = () => {
     return (
         <div className='mb-10  md:mb-32 mt-4 md:mt-12 lg:-mt-12 lg:mb-5'>
 
-<div className='flex -space-x-16 justify-center items-center' data-aos="fade-down">
+<div  className='flex -space-x-16 justify-center items-center' data-aos="fade-down">
                 <img src={intro} className='h-32 w-32' alt=' '/>
                 <h1 className='text-2xl md:text-4xl font-bold' >Our Product</h1>
             </div>
 {/* mobile */}
-<div className='lg:hidden px-5 md:px-10 md:h-[500px]'>
+<div data-aos="zoom-out" className='lg:hidden px-5 md:px-10 md:h-[500px]'>
 <Swiper
         effect={"flip"}
         grabCursor={true}
